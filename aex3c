@@ -1,0 +1,7 @@
+// Name: Pietro Angiolella Student ID: 220378899
+
+addi x5, x0, 0x123
+andi x6, x5, 0xf0f
+srli x5, x5, 4
+slli x6, x6, 60
+or x5, x5, x6
